@@ -20,7 +20,7 @@ export default function CheckoutForm({ form, onChange, onSubmit }) {
         </div>
       ))}
 
-      <div className="flex gap-4">
+      <div className="flex flex-col sm:flex-row gap-4">
         {["province", "district"].map((name) => (
           <div key={name} className="flex flex-col gap-1 flex-1">
             <label className="text-sm font-medium text-gray-600 capitalize">{name} *</label>
