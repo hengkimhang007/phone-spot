@@ -46,3 +46,4 @@ export default function Cart({ id, img, name, price }) {
 }
 
 
+
