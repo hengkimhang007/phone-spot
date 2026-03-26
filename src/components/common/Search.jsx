@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from "react";
-import { allProducts } from "../../data_final/data_review/reviewData";
+import { allProducts } from "../../data/data_review/reviewData";
 import { Link } from "react-router-dom";
 import { FaSearch, FaTimes } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
@@ -115,6 +115,7 @@ export default function SearchProduct() {
     </div>
   );
 }
+
 
 
 
