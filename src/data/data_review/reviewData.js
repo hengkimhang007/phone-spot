@@ -3,7 +3,7 @@ import { ipads } from "../data_ipad/ipadData";
 import { iphones } from "../data_iphone/iphoneData";
 import { samsungs } from "../data_samsung/samsungData";
 import { oppos } from "../data_oppo/oppoData";
-import { asuss } from "../data_asus/asusdata";
+import { asuss } from "../data_asus/asusData";
 import { vivos } from "../data_vivo/vivoData";
 import { tablets } from "../data_tablet/tabletData";
 export const allProducts = [
