@@ -6,9 +6,9 @@ import Trending from '../components/ui/Trending'
 const brands = [
   { label: "iPhone",  to: "/Iphone",  logo: "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg",   bg: "bg-gray-100", dark: true },
   { label: "Samsung", to: "/Samsung", logo: "https://www.freepnglogos.com/uploads/classic-samsung-logo-png-0.png",        bg: "bg-blue-50",  dark: false },
-  { label: "Oppo",    to: "/Oppo",    logo: "https://bbs.oppo.com/upload/image/front/thread/20231206/1840016636528814641/1480225247830474757/1480225247830474757.png",           bg: "bg-green-50", dark: false },
+  { label: "Oppo",    to: "/Oppo",    logo: "https://bbs.oppo.com/upload/image/front/thread/20231206/1840016636528814641/1480225247830474757/1480225247830474757.png",bg: "bg-green-50", dark: false },
   { label: "Asus",    to: "/Asus",    logo: "https://upload.wikimedia.org/wikipedia/commons/2/2e/ASUS_Logo.svg",           bg: "bg-red-50",   dark: false },
-  { label: "Huawei",  to: "/Huawei",  logo: "https://banner2.cleanpng.com/20180826/pue/kisspng-huawei-computer-network-telecommunications-organiz-boards-paul-o-amp-apos-brien-huaweidt2wenabl-5b82f3060703d7.9544167715353085500287.jpg",         bg: "bg-rose-50",  dark: false },
+  { label: "Huawei",  to: "/Huawei",  logo: "https://city-png.b-cdn.net/preview/preview_public/temp/official-huawei-logo-11764582282zvuumf4ptl.webp",         bg: "bg-rose-50",  dark: false },
   { label: "Vivo",    to: "/Vivo",    logo: "https://upload.wikimedia.org/wikipedia/commons/e/e5/Vivo_mobile_logo.png",      bg: "bg-indigo-50",dark: false },
   { label: "iPad",    to: "/ipad",    logo: "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg",   bg: "bg-sky-50",   dark: true },
 ];
