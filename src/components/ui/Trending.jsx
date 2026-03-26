@@ -1,6 +1,6 @@
 import { motion } from "framer-motion"
 import Cart from './Cart'
-import { trendings } from '../../data/data_trending/trendingData'
+import { trendings } from '../../data_new/data_trending/trendingData'
 
 export default function Trending() {
   return (
@@ -27,4 +27,5 @@ export default function Trending() {
     </section>
   )
 }
+
 
