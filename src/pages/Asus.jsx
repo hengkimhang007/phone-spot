@@ -1,3 +1,4 @@
 import ProductGrid from '../components/ui/ProductGrid'
-import { asuss } from '../Data/data_asus/asusdata'
+import { asuss } from '../data/data_asus/asusData'
 export default function Asus() { return <ProductGrid title="ASUS" products={asuss} /> }
+

@@ -1,6 +1,6 @@
 import { useParams, useNavigate } from "react-router-dom";
 import { useContext, useState, useRef } from "react";
-import { allProducts } from "../../Data/data_review/reviewData";
+import { allProducts } from "../../data/data_review/reviewData";
 import { CartContext } from "../../context/CartContext";
 import { useCartAnim } from "../../context/CartAnimContext";
 import { motion } from "framer-motion";
@@ -86,3 +86,4 @@ export default function ReviewPage() {
     </motion.div>
   );
 }
+

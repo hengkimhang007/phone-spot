@@ -36,3 +36,4 @@ export default function CartItem({ item, index }) {
     </motion.div>
   );
 }
+

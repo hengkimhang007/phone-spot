@@ -54,3 +54,4 @@ export default function CartPage() {
     </motion.div>
   );
 }
+
