@@ -43,7 +43,9 @@ export default function CheckoutPage() {
 
         <div className="flex flex-col lg:flex-row gap-6">
           <CheckoutForm form={form} onChange={handleChange} onSubmit={handleSubmit} />
-          <OrderSummary />
+          <div className="hidden lg:block">
+            <OrderSummary />
+          </div>
         </div>
 
       </div>
